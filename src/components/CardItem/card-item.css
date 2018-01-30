@@ -1,0 +1,21 @@
+.card-item {
+
+}
+
+.card-item__header a,
+.card-item__header span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: calc(100% - 48px);
+}
+
+.card-item__image {
+  height: 200px;
+  overflow: hidden;
+}
+.card-item__description {
+  height: 100px;
+  overflow: hidden;
+}
